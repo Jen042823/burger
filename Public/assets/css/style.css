@@ -1,0 +1,42 @@
+body {
+	background-color:#C6E0FF;
+	color:  black;
+	font-family: 'Roboto', sans-serif;
+}
+  
+  .submit {
+	margin: 10px;
+  }
+  
+  img {
+	width: 25%;
+  }
+  
+  .enter_section {
+	margin: 10px;
+  }
+  
+  .heading {
+    margin-top: 2rem;
+  }
+
+  .burger-row {
+    margin-top: 0.5rem;
+    margin-bottom: 0.5rem;
+}
+
+.desc, .add_burger, #burgerName {
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+}
+
+.desc, .addBurger {
+    font-size: 20px;
+}
+
+#burgerName {
+    width: 55%;
+    margin: 0 auto;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+}
