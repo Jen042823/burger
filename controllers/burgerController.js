@@ -1,7 +1,6 @@
 var express = require("express");
 const router = express.Router();
 var burger = require("../models/burger.js");
-const path = require('path');
 
 router.get("/", function(req, res) {
   res.sendFile(path.join(__dirname, "public/index.html"));
