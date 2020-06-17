@@ -3,7 +3,7 @@ const router = express.Router();
 var burger = require("../models/burger.js");
 
 router.get("/", function(req, res) {
-  res.sendFile(path.join(__dirname, "public/index.html"));
+  res.sendFile(path.join(__dirname, "Public/index.html"));
 });
 
 router.get("/burgers", function(req, res) {
